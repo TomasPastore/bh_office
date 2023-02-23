@@ -1,0 +1,42 @@
+{
+  "ventas": [
+    {
+      "id": "V001",
+      "cant_x_item_": {
+        "A21": 3,
+        "A22": 1
+      },
+      "fecha_de_creacion": "2023-01-01T13:37:27-03:00"
+    },
+    {
+      "id": "V002",
+      "cant_x_item_": {
+        "A21": 1,
+        "A22": 1
+      },
+      "fecha_de_creacion": "2023-01-02T13:37:27-03:00"
+    }
+  ],
+  "productos": [
+    {
+      "id": "A21",
+      "nombre": "Martillo super",
+      "precio": 50
+    },
+    {
+      "id": "A22",
+      "nombre": "Martillo inflable",
+      "precio": 30
+    }
+  ],
+  "usuarios": [
+    {
+      "nombre": "Fede",
+      "email": "pastoretomas96@gmail.com"
+    },
+    {
+      "nombre": "Omar",
+      "email": "pastoretomas96"
+    }
+  ]
+}

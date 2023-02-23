@@ -1,0 +1,22 @@
+{
+  "name": "bh_backoffice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000 --middlewares ./range.js",
+    "backoffice": "npm run dev --prefix react-ts-shopping-cart",
+    "dev": "concurrently \"npm run server\" \"npm run backoffice\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "json-server": "^0.17.1",
+    "ra-data-simple-rest": "^4.7.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
